@@ -400,9 +400,9 @@ function zerif_about_us_header_title_function() {
 	$zerif_aboutus_title = get_theme_mod('zerif_aboutus_title',__('About','zerif-lite'));
 
 	if( !empty($zerif_aboutus_title) ):
-		echo '<h2 class="white-text">'. wp_kses_post( $zerif_aboutus_title ) .'</h2>';
+		echo '<h2>'. wp_kses_post( $zerif_aboutus_title ) .'</h2>';
 	elseif ( is_customize_preview() ):
-		echo '<h2 class="white-text zerif_hidden_if_not_customizer"></h2>';
+		echo '<h2 class="zerif_hidden_if_not_customizer"></h2>';
 	endif;
 }
 

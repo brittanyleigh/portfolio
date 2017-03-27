@@ -16,6 +16,8 @@ Tags: one-column, two-columns, right-sidebar,front-page-post-form,full-width-tem
 /*--------------------------------------------------------------
 1.0 - Reset
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+
 html {
 	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
 	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
@@ -31,7 +33,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: inherit;
+	font-family: inherit; 
 	font-size: 16px;
 	font-style: inherit;
 	font-weight: inherit;
@@ -46,7 +48,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	-webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
 	-moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
 	box-sizing:         border-box;
-}
+}  
 body {
 	background: #fff;
 }
@@ -138,11 +140,11 @@ padding-left: 0 !important;
 }
 /* Selection colours (easy to forget) */
 ::selection {
-	background: #FC6D6D;
+	background: #7189fb;
 	color: #FFF;
 }
 ::-moz-selection {
-	background: #FC6D6D;
+	background: #7189fb;
 	color: #FFF;
 }
 a {
@@ -154,7 +156,7 @@ a,a:hover {
 	text-decoration: none;
 }
 a:hover {
-	color: #cb4332;
+	color: #b7bed5;
 }
 p {
     margin: 0;
@@ -608,7 +610,7 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-	color: #555;
+	color: #404040;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 0;
 }
@@ -618,7 +620,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
-	color: #111;
+	color: #404040;
 }
 input[type="text"],
 input[type="email"],
@@ -643,7 +645,7 @@ textarea {
 .entry-content input[type="button"]:hover,
 .entry-content input[type="reset"]:hover,
 .entry-content input[type="submit"]:hover {
-	background: #cb4332;
+	background: #b7bed5;
 }
 .input-box {
 	border: 0 !important;
@@ -700,7 +702,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-	color: #cb4332;
+	color: #b7bed5;
 }
 /*---------------------------------------
  **   5.2 Menus                  -----
@@ -1153,7 +1155,7 @@ a:active {
 .comment-form #submit:focus,
 .comment-form #submit:active {
 
-	background: #cb4332;
+	background: #b7bed5;
 }
 .comment-meta{
 
@@ -1173,7 +1175,7 @@ a:active {
 	padding: 3px 0px;
 }
 .comment-reply-link:hover{
-	background: #cb4332;
+	background: #b7bed5;
 	box-shadow: none;
 }
 .comment-author img{
@@ -1362,7 +1364,7 @@ object {
 -----------------------------------------*/
 /*** SECTION HEADERS ***/
 .focus,.works,.about-us,.features,.packages,.products,.testimonial,.contact-us {
-	padding-top: 100px;
+	padding-top: 35px;
 }
 .section-header {
 	text-align: center;
@@ -1691,13 +1693,17 @@ ul.nav > li.current_page_item.current > a:before {
 	float:none;
 }
 .intro-text{
+	font-family: 'Grand Hotel', cursive;
 	text-align: center;
-	color: #FFF;
+	color: #404040;
 	line-height: 65px;
 	z-index: 0;
-	text-transform: uppercase;
-	font-size: 55px;
+	font-size: 64px;
 	float:none;
+}
+.intro-tag {
+	font-family: 'Lato', Helvetica, sans-serif;
+	padding-top: 15px;
 }
 /* Short Messages */
 .bottom-message-section {
@@ -1713,8 +1719,8 @@ ul.nav > li.current_page_item.current > a:before {
 /*----  SECTION:  HOME > LATEST NEWS   ----*/
 .latest-news {
 	padding-bottom: 66px;
-	padding-top: 100px;
-	background: #eaedf6;
+	padding-top: 35px;
+	background: #FFF;
 }
 .carousel-inner {
 /*	margin: 0 30px; */
@@ -1786,7 +1792,7 @@ ul.nav > li.current_page_item.current > a:before {
 }
 
 .carousel-control:focus {
-	outline: thin dotted #cb4332;
+	outline: thin dotted #b7bed5;
 	outline-offset: 0;
 }
 
@@ -2140,10 +2146,11 @@ width: -webkit-calc(100% / 4);
 	color: #FFF !important;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	background-color: #8a9ae6;
 }
 .pirate_forms .pirate-forms-submit-button:hover {
 	color: #FFF;
-	background: #cb4332;
+	background-color: #90b4ee;
 }
 .pirate_forms_wrap label {
 	width: 100%;
@@ -2237,8 +2244,8 @@ width: -webkit-calc(100% / 4);
  **   Section: About us;              -----
 -----------------------------------------*/
 .about-us {
-	background: #b7bed5;
-	color: #FFF;
+	background: #FFF;
+
 }
 .about-img {
 	border-radius: 50%;
@@ -2254,11 +2261,11 @@ width: -webkit-calc(100% / 4);
 	margin-top: -15px;
 }
 .about-us .section-header .section-legend {
-	color: #FFF;
+	color: #404040;
 }
 .about-us p {
 	text-align: left;
-	color: #939393;
+	color: #404040;
 	font-size: 14px;
 	line-height: 25px;
 }
@@ -2957,7 +2964,7 @@ width: -webkit-calc(100% / 4);
 	padding-bottom: 95px;
 }
 .contact-us .section-header .section-legend {
-	color: #FFF;
+	color: #404040;
 }
 .contact-us .input-box,textarea {
 	width: 100%;
@@ -3002,17 +3009,17 @@ width: -webkit-calc(100% / 4);
 	line-height: 20px;
 }
 .company-details {
-	color: #939393;
+	color: #404040;
 	padding-top: 20px;
 	padding-bottom: 30px;
 }
 .company-details a {
-	color:#939393;
+	color:#404040;
 	text-decoration:none;
 }
 
 .company-details a:hover {
-	color: white;
+	color: #8A9AE6;
 }
 .company-details .icon-top {
 	font-size: 30px;
@@ -3061,7 +3068,7 @@ width: -webkit-calc(100% / 4);
 	background: rgba(255,255,255,0.05);
 }
 .footer-widget-wrap .widget .widget-title {
-	color: #939393;
+	color: #404040;
 }
 .footer-widget-wrap .widget li a {
 	color: #CCC;
@@ -3130,6 +3137,7 @@ width: -webkit-calc(100% / 4);
 /*---------------------------------------
  **   Section blog            -----
 -----------------------------------------*/
+
 .blog {
 	min-height: 175px;
 	position: relative;
@@ -3546,7 +3554,7 @@ article .posted-on a:hover{
 	margin: 0;
 }
 .woocommerce-page .products a.button:hover {
-	background: #cb4332;
+	background: #b7bed5;
 }
 .woocommerce-page .products h3 {
 	color: #404040;
@@ -4250,7 +4258,7 @@ article .posted-on a:hover{
 .woocommerce-page .woocommerce input[type="submit"]:hover,
 .woocommerce-page #content input.button:hover,
 .woocommerce input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce-page input.button.alt:hover {
-	background: #cb4332;
+	background: #b7bed5;
 	color: #FFF;
 	box-shadow: none;
 }
@@ -4266,7 +4274,7 @@ article .posted-on a:hover{
 	color: #FFF;
 }
 .woocommerce a.button.alt:hover {
-	background: #cb4332;
+	background: #b7bed5;
 	color: #FFF;
 }
 .woocommerce-page .woocommerce a.remove:hover {
