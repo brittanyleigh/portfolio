@@ -891,7 +891,7 @@ a:active {
 	text-transform: uppercase;
 	margin-bottom: 10px;
 	font-weight: bold;
-	font-size: 17px;
+	font-size: 24px;
 	position: relative;
 	text-align: center;
 	margin-top: 30px;
@@ -1847,7 +1847,7 @@ ul.nav > li.current_page_item.current > a:before {
  	float:none !important;
  	margin-right: -4px;
 	vertical-align: top;
-	margin-bottom: 25px;
+	margin-bottom: 5px;
 }
 /* FOCUS BOX */
 .focus-box .service-icon {
@@ -2428,7 +2428,7 @@ width: -webkit-calc(100% / 4);
 -----------------------------------------*/
 .our-team {
 	padding-bottom: 15px;
-	padding-top: 100px;
+	padding-top: 10px;
 	background: #FFFFFF;
 }
 .our-team .section-header {
@@ -2438,7 +2438,7 @@ width: -webkit-calc(100% / 4);
 	border-radius: 4px;
 	overflow: hidden;
 	position: relative;
-	margin-bottom: 35px;
+	margin-bottom: 5px;
 }
 .team-member .details {
 	text-align: left;
@@ -3096,6 +3096,12 @@ width: -webkit-calc(100% / 4);
 }
 .red-text img:hover {
 	color: white;
+}
+.zerif-footer-address i {
+    padding: 15px;
+}
+.col-md-12.company-details {
+    font-weight: bold;
 }
 /*---------------------------------------
  **   Single page           -----
@@ -4580,7 +4586,7 @@ article .posted-on a:hover{
 @media (max-width: 1200px) {
 
 	.header-content-wrap{
-		padding: 235px 0 150px;
+		padding: 175px 0 75px;
 	}
 
 }
@@ -5846,7 +5852,7 @@ body.custom-background {
 @media (max-width: 1200px) {
 
 	.header-content-wrap{
-		padding: 235px 0 150px;
+		padding: 175px 0 75px;
 	}
 	.about-img {
 		width: 90%;
@@ -5921,10 +5927,10 @@ body.custom-background {
         margin-right: 0;
 	}
 	.header-content-wrap {
-		padding-top: 26%;
+		padding-top: 10%;
 	}
 	.intro-text{
-        font-size: 45px;
+        font-size: 48px;
         line-height: 55px;
     }
     .section-header h2{
@@ -5938,7 +5944,7 @@ body.custom-background {
         padding-bottom: 60px;
     }
     .header-content-wrap{
-		padding: 225px 0 150px;
+		padding: 150px 0 25px;
 	}
 	.about-us .big-intro {
 		text-align: center;
@@ -6084,10 +6090,10 @@ body.custom-background {
 		font-size: 6.5vw;
 	}
     .header-content-wrap {
-    	padding-top: 30%;
+    	padding-top: 10%;
     }
 	.intro-text{
-        font-size: 41px;
+        font-size: 48px;
         line-height: 49px;
     }
 	.focus-box {
@@ -6169,10 +6175,10 @@ body.custom-background {
 	}
 
 	.header-content-wrap {
-	    padding-top: 40%;
+	    padding-top: 8%;
 	}
 	.intro-text{
-        font-size: 32px;
+        font-size: 48px;
         line-height: 37px;
     }
 	h2 {
@@ -6239,15 +6245,15 @@ body.custom-background {
 }
 @media (max-width: 320px) {
     .intro {
-		line-height: 25px;
+		line-height: 36px;
 		font-size: 7vw;
 	}
 	.header-content-wrap {
-        padding-top: 50%;
+        padding-top: 7%;
     }
     .intro-text {
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 36px;
+        line-height: 36px;
     }
 	.client-list ul li {
 		display: block;

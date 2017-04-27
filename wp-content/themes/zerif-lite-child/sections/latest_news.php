@@ -30,7 +30,7 @@
 					
 					echo '<div class="carousel-inner" role="listbox">';
 
-						$zerif_latest_loop = new WP_Query( apply_filters( 'zerif_latest_news_parameters', array( 'post_type' => 'post', 'posts_per_page' => $zerif_total_posts, 'category_name' => 'Projects','order' => 'DESC','ignore_sticky_posts' => true )) );
+						$zerif_latest_loop = new WP_Query( apply_filters( 'zerif_latest_news_parameters', array( 'post_type' => 'post', 'posts_per_page' => $zerif_total_posts, 'order' => 'DESC','ignore_sticky_posts' => true )) );
 
 						$newSlideActive = '<div class="item active" role="option">';
 						$newSlide 		= '<div class="item">';

@@ -270,7 +270,7 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 			<section class="contact-us" id="contact">
 				<div class="container">
 					<!-- SECTION HEADER -->
-					<div class="section-header">
+					<div id="contact" class="section-header">
 
 						<?php
 
